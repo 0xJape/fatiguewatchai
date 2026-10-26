@@ -113,14 +113,6 @@ PROJECT_OVERVIEW.md   Project scope and safety context
 run_all.bat           Windows launcher
 ```
 
-## Known limits
-
-- Fatigue classification is rule-based, not trained ML classification.
-- Gaze and yawn detection use landmark heuristics and need calibration across users and cameras.
-- Data annotation and accuracy/precision/recall/F1 evaluation are not included yet.
-- Reports currently use browser print-to-PDF, not server-generated PDF files.
-- The current setup is local-only: frontend connects to `localhost:8000`.
-
 ## Privacy
 
 Camera frames are sent from browser to the local backend over WebSocket for analysis. No cloud upload is configured. Keep `.env` private and never commit credentials.
