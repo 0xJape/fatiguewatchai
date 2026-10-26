@@ -2,6 +2,12 @@
 
 Complete local setup for Windows.
 
+## Fast setup
+
+Install Python 3.12 and Node.js LTS first, then double-click `setup.bat`. It creates the virtual environment, installs Python and frontend dependencies, and downloads `models/face_landmarker.task`.
+
+After setup finishes, double-click `run_all.bat`.
+
 ## 1. Install prerequisites
 
 Install:

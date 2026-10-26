@@ -45,6 +45,8 @@ FatigueWatch AI uses a browser webcam and MediaPipe facial landmarks to monitor 
 
 For complete Windows installation steps, see [`SETUP.md`](SETUP.md).
 
+Windows quick setup: install Python 3.12 and Node.js LTS, then run `setup.bat`. It installs dependencies and downloads the required MediaPipe model automatically.
+
 ## Setup
 
 Open PowerShell in project root:
