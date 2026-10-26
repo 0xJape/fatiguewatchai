@@ -43,6 +43,8 @@ FatigueWatch AI uses a browser webcam and MediaPipe facial landmarks to monitor 
 - Webcam and browser camera permission
 - Modern Chromium, Edge, or Firefox browser
 
+For complete Windows installation steps, see [`SETUP.md`](SETUP.md).
+
 ## Setup
 
 Open PowerShell in project root:
